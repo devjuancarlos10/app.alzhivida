@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    width: 100%;
+    height: auto;
+}
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6E5CD3;
+    padding: 10px;
+    color: #fff;
+}
+
+.profile {
+    font-size: 18px;
+  }
+  
+.search-bar {
+    margin-top: 1rem;
+    width: 80%;
+    padding: 5px;
+    height: 40px;
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    border:none;
+    border-radius: 15px;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.categories {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: #fff;
+    color: #6200ee;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.iconCategories{
+    margin-bottom: 5px;
+    width: 30px;
+}
+  
+.recommended-specialists, .trending {
+    margin-top: 20px;
+}
+  
+h2 {
+    color: #6200ee;
+}
+  
