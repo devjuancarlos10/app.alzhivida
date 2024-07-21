@@ -1,0 +1,109 @@
+.interactua {
+    padding: 20px;
+    padding-bottom: 6rem;
+}
+
+.interactua h2 {
+    color: #6200ee;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-item {
+    flex: 1 0 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.box_hashs{
+    margin-top: 0;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+}
+
+.btn_hash{
+    background-color: #a02bffb4;
+}
+
+.title_post{
+    font-size: 15px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-info {
+    flex: 1;
+}
+
+.post-info .nombre {
+    font-weight: bold;
+    margin: 0;
+}
+
+.post-info .comentario {
+    margin: 5px 0;
+}
+
+.post-info .hashtag {
+    color: #6200ee;
+}
+
+.post-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
